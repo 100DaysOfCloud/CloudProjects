@@ -19,12 +19,12 @@ The value of a cloud project is you attempting to figure out how to complete a p
 
 Your project needs to contain the following requirements:
 
-- [Project Journal](equirements/project-journal.md)
+- [Project Journal](requirements/project-journal.md)
 - [Architectual Diagram(s)](requirements/architectual-diagrams.md)
-- [Presentation](/requirements/presentation)
-- [Cost Anaylsis](/requirements/cost-anaylsis)
-- [Security Anaylsis](/requirements/security-anaylsis)
-- [Project Showcase (Codebase, Live Demo, IaC)](/requirements/showcase)
+- [Presentation](requirements/presentation.md)
+- [Cost Anaylsis](requirements/cost-anaylsis.md)
+- [Security Anaylsis](requirements/security-anaylsis.md)
+- [Project Showcase (Codebase, Live Demo, IaC)](requirements/showcase.md)
 
 Please explore each of the requirements above before proceeding to create your Cloud Project.
 
