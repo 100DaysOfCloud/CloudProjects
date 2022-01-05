@@ -19,8 +19,8 @@ The value of a cloud project is you attempting to figure out how to complete a p
 
 Your project needs to contain the following requirements:
 
-- [Project Journal](/requirements/project-journal)
-- [Architectual Diagram(s)](/requirements/architectual-diagrams)
+- [Project Journal](equirements/project-journal.md)
+- [Architectual Diagram(s)](requirements/architectual-diagrams.md)
 - [Presentation](/requirements/presentation)
 - [Cost Anaylsis](/requirements/cost-anaylsis)
 - [Security Anaylsis](/requirements/security-anaylsis)
