@@ -47,3 +47,9 @@ C4 Model will help you understand what information is important to capture and w
 - [C4 Model Wikipedia Article](https://en.wikipedia.org/wiki/C4_model)
 - [C4 Model Website](https://c4model.com/)
 - [C4 Model Tech Talk by Simon Brown](https://youtu.be/x2-rSnhpw0g)
+
+## Diagrams as Code
+
+Diagrams as Code allows you to programmatically generate architectual diagrams usingg python code.
+
+[Diagram as Code](https://diagrams.mingrammer.com/)
