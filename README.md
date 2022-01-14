@@ -42,9 +42,9 @@ Please explore each of the requirements above before proceeding to create your C
 
 | Project Name | Difficulty |
 |---|---|
-|   | Easy |
-| [Linktr.ee Clone](projects/cloud-developer/linktree-clone.md) | Medium |
-|   | Hard |
+| [Linktr.ee Clone - Bare Bones](projects/cloud-developer/linktree-clone-bare-bones.md) | Begineer |
+| [Linktr.ee Clone - Data Driven](projects/cloud-developer/linktree-clone.md) | Associate |
+| [Linktr.ee Clone - Multi-Tenant SaaS](projects/cloud-developer/linktree-clone.md)  | Professional |
 
 ## Cloud Architect Projects
 
