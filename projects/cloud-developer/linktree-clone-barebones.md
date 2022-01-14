@@ -13,6 +13,9 @@ The scope of this project  is to:
 
 ## Frontend  (Static Website)
 
+You will neeed to build a frontend.
+
+[ Linktree HTML and CSS Clone Tutorial](https://www.youtube.com/watch?v=lUo6O_L-V-4) by Danny Thompson
 
 ## Cloud Storage
 
