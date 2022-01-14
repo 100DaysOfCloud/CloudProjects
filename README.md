@@ -43,7 +43,7 @@ Please explore each of the requirements above before proceeding to create your C
 | Project Name | Difficulty |
 |---|---|
 |   | Easy |
-|   | Medium |
+| [Linktr.ee Clone](requirements/project-journal.md) | Medium |
 |   | Hard |
 
 ## Cloud Architect Projects
