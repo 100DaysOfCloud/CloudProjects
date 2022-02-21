@@ -15,7 +15,6 @@ The following people helped in the developement and finetuning of this community
         <sub><b>Andrew Brown</b></sub>
       </a>
       <br />
-      <br />
       </td>
   </tr>
 </table>
@@ -32,7 +31,6 @@ This is a list of people who have succcesfully completed this project.
         <br />
         <sub><b>This could be you!</b></sub>
       </a>
-      <br />
       <br />
       </td>
   </tr>
