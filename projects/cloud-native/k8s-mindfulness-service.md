@@ -11,7 +11,6 @@ The following people helped in the developement and finetuning of this community
     <td align="center">
       <a href="https://twitter.com/andrewbrown">
         <img src="https://avatars.githubusercontent.com/u/7776?v=4?s=100" width="100px;" alt=""/>
-        <br />
         <sub><b>Andrew Brown</b></sub>
       </a>
       <br />
@@ -28,7 +27,6 @@ This is a list of people who have succcesfully completed this project.
     <td align="center">
       <a href="#">
         <img src="placeholder.png" width="100px;" alt=""/>
-        <br />
         <sub><b>This could be you!</b></sub>
       </a>
       <br />
