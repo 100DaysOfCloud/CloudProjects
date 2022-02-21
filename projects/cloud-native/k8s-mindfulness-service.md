@@ -1,17 +1,17 @@
-# Kuberenetes Mindfulness Service
+# Kubernetes Mindfulness Service
 
 ## Technical Goal
 
-The goal of this project is to demostrate you can deploy a simple production web-application to Kuberenetes to a managed service provider utilizing common Kubernetes commonponents and third-party services.
+This project aims to demonstrate you can deploy a simple production web application to Kubernetes to a managed service provider utilizing standard Kubernetes components and third-party services.
 
 ## Scenario
 
-A non-profit organization has recieved government funding to levegave cloud-native services for building public services accessible online. The org has hired you as their (only) Cloud-Native/Kubernetes Engineer.
+A non-profit organization has received government funding to leverage cloud-native services for building public services accessible online. The org has hired you as their (only) Cloud-Native/Kubernetes Engineer.
 
 ### Feature Requirements
 
-The mindfuless app is accessible via any web browser.
-The mindfuless app consists of a single page that disable a breathing excercise that the user can perform.
+The mindfulness app is accessible via any web browser.
+The mindfulness app consists of a single page that displays a breathing exercise that the user can perform.
 
 eg. two deep breaths, one short breath
 
@@ -21,46 +21,46 @@ There should be between 50 to 100 different breathing excerises
 
 ### Business Requirements
 
-The goverment funding works in two parts:
-1. The non profit will be provided funding to hire an engineer (that's you) to build a production ready prototype
-2. The non profit will only recieve ongoing funding to retain the engineer and to maintain the cost of the service if the organization submits a: Architectural Diagram, a Technical Journal, a Cost Anaylsis, A Security Analysis.
+The government funding works in two parts:
+1. The non-profit will be provided funding to hire an engineer (that's you) to build a production-ready prototype
+2. The non-profit will only receive ongoing funding to retain the engineer and maintain the service cost if the organization submits a: Architectural Diagram, a Technical Journal, a Cost Analysis, A Security Analysis.
 
  #### Architectural Diagram
 
- A PDF of the architectual diagram that shows as a much details a possible of the final architecture needs to submitted to the government.
+A PDF architectural diagram showing as much possible detail of the final architecture will need to be submitted to the government to obtain funding.
 
  #### Technical Journal
 
-There is concern that if the engineer (you) were to leave the project, that the next person would not know what to do to carry on the project or may not understand your decisions.
+There is concern that if the engineer (you) were to leave the project, the next person would not know what to do to carry on the project or may not understand your decisions.
 
-Another concern is that the service in questions is only a production prototype and will be pulled down while the organization awaits approval for the second level of funding.
+Another concern is that the service in question is only a production prototype and will be pulled down while the organization awaits approval for the second level of funding.
 
 A Technical Journal is required to mitigate the concerns
 The Technical journal is composed of different digital documents, Work Log, Technical Steps:
 
  ##### Technical Steps
 
-In the technical steps digital document you need to write out all the technical steps taken. Similar to writing a tutorial. 
+In the technical steps digital document, you need to write out all the technical steps taken. Similar to writing a tutorial. 
 
  ##### Work Log
 
-
-In this document, everday you decide to work on the project, you describe what you plan to do today, what you think the solution will be, and what was the outcome (regardless if it was succesful or failure.)
+In this document, every day you decide to work on the project, you describe what you plan to do today, what you think the solution will be, and the outcome (regardless of whether it was successful or failure.)
  
 #### Security Analysis
 
-While the app does not contain any sensitive organizational data, or stores user data, you are required to describe the security of your service. Do your best here to meet what you think are the requirements.
+While the app does not contain any sensitive organizational data or stores user data, you must describe the security of your service. Do your best here to meet what you think are the requirements.
 
 #### Cost Anaylsis
 
- In order to provide ongoing costs the goverment needs to know the monthly spend.
- For two years out. Due a detailed breakdown of cost for three years out with the assumption there will be an increase in traffic and usage. (It is up to you to describe what the increased in capacity will be)
+The government needs to know the monthly spending to receive funding for ongoing costs.
 
-You can factor in extra labour in case its not as simple as scaling to more machines.
+For two years out, a detailed breakdown of cost for three years out with the assumption there will be an increase in traffic and usage. (It is up to you to describe what the increase in capacity will be)
+
+You can factor in extra labour if it's not as simple as scaling to more machines.
  
 ## Third-Party Consultant Recommedation
 
-To obtain the initial funding the organization had to by requirement consult a third party Cloud-Native Engineer on how the service should be built. You need to try and meet these requirements.
+To obtain the initial funding, the organization had to by requirement consult a third-party Cloud-Native Engineer on how the service should be built. Therefore, you need to try and meet these requirements.
 
 
 ### 1. Building the application
