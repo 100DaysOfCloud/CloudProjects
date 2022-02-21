@@ -62,6 +62,25 @@ You can factor in extra labour if it's not as simple as scaling to more machines
 
 To obtain the initial funding, the organization had to by requirement consult a third-party Cloud-Native Engineer on how the service should be built. Therefore, you need to try and meet these requirements.
 
+🚨 Please Ready All Requirements before getting started
+
+- [1. Building the application](#1-building-the-application)
+- [2. Managed database service](#2-managed-database-service)
+- [3. Containerizing the application](#3-containerizing-the-application)
+- [4. Managed Cloud Service Provider (CSPs)](#4-managed-cloud-service-provider-csps)
+- [5. External Load Balanacer](#5-external-load-balanacer)
+- [6. Domain Name](#6-domain-name)
+- [7. Encyption-in-Transit](#7-encyption-in-transit)
+- [8. Scheduled CronJob](#8-scheduled-cronjob)
+- [9. General Availability and AutoScaling](#9-general-availability-and-autoscaling)
+- [10. Right-sizing Pods](#10-right-sizing-pods)
+- [11. Multiple Fault Zones (Optional, Bonus Points)](#11-multiple-fault-zones-optional-bonus-points)
+- [12. Cluster Autoscaling (Optional Big Bonus Points](#12-cluster-autoscaling-optional-big-bonus-points)
+- [13. Block Storage and Snapshots](#13-block-storage-and-snapshots)
+- [14. Namespace](#14-namespace)
+- [15. Role Based Acess Controls (RBAC)](#15-role-based-acess-controls-rbac)
+- [16. Deployment](#16-deployment)
+- [17. Service Mesh](#17-service-mesh)
 
 ### 1. Building the application
 
@@ -90,7 +109,7 @@ Examples of managed relational database services:
 
 You will need to use a Kubernetes ExternalName Service
 
-### 2. Containerizing the application
+### 3. Containerizing the application
 
 Once you have built the web-application you need to ensure it can run in its own container.
 
@@ -98,7 +117,7 @@ Once you have built the web-application you need to ensure it can run in its own
 - You need create your own Dockerfile an extend that base image.
 - You need to build that image and store it in a container repository. 
 
-### 3. Managed Cloud Service Provider (CSPs)
+### 4. Managed Cloud Service Provider (CSPs)
 
 You need to host the cluster on a managed kuberenetes service.
 The following were suggested:
@@ -115,7 +134,7 @@ The following were suggested:
 Some CSPs have two different options for nodes, Virtual Machines, or Serverless Containers.
 You must avoid using serverless containers for the underyling compute for this project.
 
-### External Load Balanacer
+### 5. External Load Balanacer
 
 In order for traffic to reach the service you will need to leverage the Cloud Service Providers (CSPs) load balanacer.
 
@@ -124,29 +143,29 @@ In order for traffic to reach the service you will need to leverage the Cloud Se
 
 > Make sure you are using the CSPs load balancer, and not the Nginx Ingress Controller. 
 
-### Domain Name
+### 6. Domain Name
 
 You need a domain name, purchase it or get a free domain name and point it to your service.
 
-### Encyption-in-Transit
+### 7. Encyption-in-Transit
 
 The web application needs to run on HTTPS.
 
-### Scheduled CronJob
+### 8. Scheduled CronJob
 
 A Kubernetes CronJob should run every 15 minutes, and it should update your ConfigMap that stores a reference to the current record that should be retrieved from the database.
 
-### General Availability and AutoScaling
+### 9. General Availability and AutoScaling
 
 There should always be at least three pods of the web-application running.
 
 You need to create a HorizontalPodAutoscaler and then use a Load-Testing Tool
 
-### Right-sizing Pods
+### 10. Right-sizing Pods
 
 Use an AutoPodVertical scaler to right-size your pods to determine the best CPU and Memory usage.
 
-### Multiple Fault Zones (Optional, Bonus Points)
+### 11. Multiple Fault Zones (Optional, Bonus Points)
 
 Run your pods across at least three different fault zones.
 A fault zone is a collection of datacenters running in a different location.
@@ -155,25 +174,25 @@ eg. AWS calls the Availability Zones.
 
 > You will have to run at leaast 3 nodes and this will greatly increase cost.
 
-### Cluster Autoscaling (Optional Big Bonus Points)
+### 12. Cluster Autoscaling (Optional Big Bonus Points)
 
 Implement Cluster Autoscaling so more nodes will be added when using a Load Testing Tool.
 
-### Block Storage and Snapshots
+### 13. Block Storage and Snapshots
 
 Your pods should utilize Block Storage from a cloud service provide.
 
 You must perform a Kubernetes Volume Snapshot
 
-### Namespace
+### 14. Namespace
 
 You need to namespace your web-application in a namespace called "mindfulness"
 
-### Role Based Acess Controls (RBAC)
+### 15. Role Based Acess Controls (RBAC)
 
 You need to create a user that can gain access to the cluster but only have read access to all components in the "mindfulness" namespace
 
-### Deployment
+### 16. Deployment
 
 You need setup a deployment tool that supports GitOps:
 - Argo
@@ -183,7 +202,7 @@ You need to demostrate that it works with any kind of superfical change to your 
 
 Use need to use a *Blue/Green* deployment strategy
 
-### Service Mesh
+### 16. Service Mesh
 
 Implement a service mesh:
 - Istio
