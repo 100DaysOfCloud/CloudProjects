@@ -36,6 +36,8 @@ This is a list of people who have succcesfully completed this project.
   </tr>
 </table>
 
+> To submit your project to the Hall of Completion, on a Github Issue and share your public repostiry for review and consideration of approval.
+
 ## Technical Goal
 
 This project aims to demonstrate you can deploy a simple production web application to Kubernetes to a managed service provider utilizing standard Kubernetes components and third-party services.
