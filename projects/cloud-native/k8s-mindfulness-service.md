@@ -62,7 +62,7 @@ You can factor in extra labour if it's not as simple as scaling to more machines
 
 To obtain the initial funding, the organization had to by requirement consult a third-party Cloud-Native Engineer on how the service should be built. Therefore, you need to try and meet these requirements.
 
-🚨 Please Ready All Requirements before getting started
+🚨 📖 Please Read All Requirements before getting started
 
 - [1. Building the application](#1-building-the-application)
 - [2. Managed database service](#2-managed-database-service)
