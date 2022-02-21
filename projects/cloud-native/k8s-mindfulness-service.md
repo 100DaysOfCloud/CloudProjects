@@ -16,7 +16,6 @@ The following people helped in the developement and finetuning of this community
       </a>
       <br />
       </td>
-  <td>
   </tr>
 </table>
 
@@ -34,7 +33,6 @@ This is a list of people who have succcesfully completed this project.
       </a>
       <br />
       </td>
-  <td>
   </tr>
 </table>
 
