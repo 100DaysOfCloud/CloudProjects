@@ -36,7 +36,7 @@ This is a list of people who have succcesfully completed this project.
   </tr>
 </table>
 
-> To submit your project to the Hall of Completion, on a Github Issue and share your public repostiry for review and consideration of approval.
+To submit your project to the Hall of Completion, open a Github Issue and share your public repository for review and consideration of approval.
 
 ## Technical Goal
 
