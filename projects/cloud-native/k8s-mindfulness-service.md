@@ -1,3 +1,5 @@
+![Kubernetes Mindfulness Service](k8s-mindfulness.png)
+
 # Kubernetes Mindfulness Service
 
 ## Technical Goal
