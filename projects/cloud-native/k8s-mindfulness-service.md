@@ -129,7 +129,7 @@ The following were suggested:
 - CIVO Kubernetes Service (CKS)
 - Digital Ocean Kubernetes Service (DOKS)
 
-> CIVO does not have managed relational database service so in this case you'll need to use CIVO alongside another Cloud Service Provider.
+> CIVO does not have a managed relational database service so in this case you'll need to use CIVO alongside another Cloud Service Provider.
 
 Some CSPs have two different options for nodes, Virtual Machines, or Serverless Containers.
 You must avoid using serverless containers for the underyling compute for this project.
