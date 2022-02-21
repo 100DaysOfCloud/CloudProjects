@@ -2,6 +2,42 @@
 
 # Kubernetes Mindfulness Service
 
+## Contributors
+
+The following people helped in the developement and finetuning of this community project idea.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://twitter.com/andrewbrown">
+        <img src="https://avatars.githubusercontent.com/u/7776?v=4?s=100" width="100px;" alt=""/>
+        <br />
+        <sub><b>Andrew Brown</b></sub>
+      </a>
+      <br />
+      </td>
+  <td>
+  </tr>
+</table>
+
+## Hall of Completion
+
+This is a list of people who have succcesfully completed this project.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="placeholder.png" width="100px;" alt=""/>
+        <br />
+        <sub><b>This could be you!</b></sub>
+      </a>
+      <br />
+      </td>
+  <td>
+  </tr>
+</table>
+
 ## Technical Goal
 
 This project aims to demonstrate you can deploy a simple production web application to Kubernetes to a managed service provider utilizing standard Kubernetes components and third-party services.
