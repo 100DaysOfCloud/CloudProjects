@@ -42,7 +42,7 @@ Please explore each of the requirements above before proceeding to create your C
 
 | Project Name | Difficulty |
 |---|---|
-| [Linktr.ee Clone - Bare Bones](projects/cloud-developer/linktree-clone-bare-bones.md) | Begineer |
+| [Linktr.ee Clone - Bare Bones](projects/cloud-developer/linktree-clone-bare-bones.md) | Beginner |
 | [Linktr.ee Clone - Data Driven](projects/cloud-developer/linktree-clone.md) | Associate |
 | [Linktr.ee Clone - Multi-Tenant SaaS](projects/cloud-developer/linktree-clone.md)  | Professional |
 
@@ -106,6 +106,6 @@ Please explore each of the requirements above before proceeding to create your C
 
 | Project Name | Difficulty |
 |---|---|
-| [Free Mindfuless Service](projects/cloud-native/k8s-mindfulness-service.md) | Begineer |
+| [Free Mindfuless Service](projects/cloud-native/k8s-mindfulness-service.md) | Beginner |
 |   | Associate |
 |   | Professional |
