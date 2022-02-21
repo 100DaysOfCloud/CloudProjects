@@ -106,6 +106,6 @@ Please explore each of the requirements above before proceeding to create your C
 
 | Project Name | Difficulty |
 |---|---|
-|   | Easy |
-|   | Medium |
-|   | Hard |
+| [Free Mindfuless Service](projects/cloud-native/k8s-mindfulness-service.md) | Begineer |
+|   | Associate |
+|   | Professional |
