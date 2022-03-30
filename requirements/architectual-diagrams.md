@@ -53,3 +53,4 @@ C4 Model will help you understand what information is important to capture and w
 Diagrams as Code allows you to programmatically generate architectual diagrams usingg python code.
 
 [Diagram as Code](https://diagrams.mingrammer.com/)
+[Plant UML](https://plantuml.com/) with [Azure plugin](https://github.com/plantuml-stdlib/Azure-PlantUML)
